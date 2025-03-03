@@ -1,4 +1,4 @@
-package org.TicketBookicnApplication.Entities;
+package org.TicketBookingApplication.Entities;
 
 import java.sql.Time;
 import java.util.List;

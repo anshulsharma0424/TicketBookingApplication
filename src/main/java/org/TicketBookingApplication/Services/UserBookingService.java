@@ -1,12 +1,13 @@
-package org.TicketBookicnApplication.Services;
+package org.TicketBookingApplication.Services;
 
 import com.fasterxml.jackson.core.type.TypeReference;
 import com.fasterxml.jackson.databind.ObjectMapper;
-import org.TicketBookicnApplication.Entities.User;
+import org.TicketBookingApplication.Entities.User;
 
 import java.io.File;
 import java.io.IOException;
 import java.util.List;
+import java.util.Optional;
 
 public class UserBookingService {
     private User user;
@@ -15,7 +16,7 @@ public class UserBookingService {
 
     private ObjectMapper objectMapper = new ObjectMapper();
 
-    private static final String USERS_PATH = "../LocalDB/users.json";
+    private static final String USERS_PATH = "src/main/java/org/TicketBookingApplication/LocalDB/users.json";
 
     public UserBookingService(User user) throws IOException {
         this.user = user;

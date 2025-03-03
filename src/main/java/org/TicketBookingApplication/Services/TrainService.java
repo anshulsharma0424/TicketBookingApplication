@@ -1,4 +1,4 @@
-package org.TicketBookicnApplication.Services;
+package org.TicketBookingApplication.Services;
 
 public class TrainService {
 }
